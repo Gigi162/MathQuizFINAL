@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math Quiz!</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Cute+Font&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+<h4 id="player1_name"> </h4>
+<span id="player1_score"> </span>
+<br>
+<br>
+<h4 id="player2_name"> </h4>
+<span id="player2_score"> </span>
+
+
+<div class="container">
+	<center>
+		<h2>Math Quiz!</h2>
+		<h3 id="player_question"> </h3>
+		<h3 id="player_answer"> </h3>
+		<div id="output" class="col-lg-6"> </div>
+		<br>
+		<br>
+        <label style="font-size: 20px;"> <b style="background-color: black; color: chartreuse; font-size: 40px; font-weight: bolder; font-family:'Cute Font', cursive ;"> Number 1 :  </b></label>
+		<input type="text" class="form-control" placeholder="Enter the 1st Number" id="number1" style="border-radius: 20px; width: 400px;" > 
+        <br>
+        <br>
+        <label style="font-size: 20px;"> <b style=" background-color: black; color: yellow; font-size: 40px; font-weight: bolder; font-family:'Cute Font', cursive ;"> Number 1 :  </b></label>
+		<input type="text" class="form-control" placeholder="Enter the 1st Number" id="number2" style="border-radius: 20px; width: 400px;" > 
+		<br>
+        <button id="BTN2" onclick="send()"> Enter </button>
+
+	</center>
+</div>
+
+<script src="game_page.js"></script>
+</body>
+</html>

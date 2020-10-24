@@ -1,0 +1,95 @@
+
+body
+{
+    background-image:url("BG Option 2.jpg");
+    background-repeat: no-repeat;
+    background-size: 2000px;
+}
+
+.login_div1 , .login_div2
+{
+	background: black;
+	padding: 10px;
+    float: none;
+    border-style:hidden;
+    width: 500px;
+    border-radius: 10px;
+    border-color: indigo;
+    border-width: 3px;
+   
+ }
+    
+.login_div1 {
+    border-bottom: none;
+}
+
+.login_div2 {
+    border-top: none;
+}
+
+
+#player1_name , #player2_name {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#word {
+	width: 60%;
+}
+
+#word_display {
+	letter-spacing: 5px;
+}
+
+#output {
+    background: white;
+    border-top: 10px solid #AA4465;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
+
+#H1MQ {
+    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
+    color:white;
+    width: 250px;
+}
+
+.line {
+    height: 6px;
+    background-color: yellow;
+    width: 70px;
+    margin: 8px auto;
+}
+
+h3 {
+    font-family:'Cute Font', cursive; 
+    font-size: 45px;
+    color: hotpink;
+}
+
+#BTNlogin {
+    background-image: linear-gradient(to bottom right, rgb(0, 255, 229), rgb(0, 255, 0));
+    height: 35px;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    font-family: 'Chilanka', cursive;
+    font-weight: bolder;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: blue;
+}
+
+#CE {
+    padding: 150px;
+}
+
+label {
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    color: rgb(0, 255, 191)
+}
+
+
